@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/main_item_one" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_menu_ebook"
+            android:title="@string/main_item_eight" />
+        <item
+            android:id="@+id/nav_ebook"
+            android:icon="@drawable/ic_collection_true"
+            android:title="@string/main_item_two" />
+        <item
+            android:id="@+id/nav_bookshelf"
+            android:icon="@drawable/ic_menu_bookshelf"
+            android:title="@string/main_item_three" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_action_share"
+            android:title="@string/main_item_four" />
+    </group>
+
+    <item android:title="@string/main_item_five">
+        <menu>
+            <item
+                android:id="@+id/nav_theme"
+                android:icon="@drawable/ic_menu_theme"
+                android:title="@string/main_item_six" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/main_item_seven" />
+        </menu>
+    </item>
+
+</menu>
